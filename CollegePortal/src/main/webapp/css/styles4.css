@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.exams {
+  text-align: center;
+}
+
+.first-exam {
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

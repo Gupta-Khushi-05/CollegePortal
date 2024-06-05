@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.con-profile {
+  width: 100%;
+  height: 100%;
+
+  text-align: center;
+}
+
+form {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2%;
+  border-radius: 4px;
+  /* border: 1px solid black; */
+  /* background-color: #fafafa; */
+}
+
+/* input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+} */
+/* input[type="file"] {
+  display: none;
+} */
+
+.profile-img {
+  width: 80%;
+  height: 100%;
+  margin: 2% 0;
+}
+
+.sub-btn,
+.sub-btn:link,
+.sub-btn:active {
+  cursor: pointer;
+  width: 20%;
+  height: 40px;
+  background-color: #000;
+  color: #fff;
+  transition: transform all 2s;
+  border-radius: 4px;
+}
+.sub-btn:hover,
+.sub-btn:visited {
+  background-color: #ababab;
+  color: #000;
+  transform: translateY(-2px);
+  border-radius: 4px;
+}
